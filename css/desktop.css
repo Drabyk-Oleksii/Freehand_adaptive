@@ -1,0 +1,38 @@
+@media (min-width: 800px) {
+  .header_block, body main {
+    width: 85%;
+  }
+  .block_container {
+    display: flex;
+  }
+  .block_container .block2 {
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+  .block_container .block {
+    height: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  .block_container .block .block_inside {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .block_container .block .block_inside .block_description {
+    font-size: 16px;
+  }
+  .title_block {
+    margin: 3vh 0 1.5vh 0;
+    font-size: 24px;
+  }
+  .footer_content_block {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.our_services {
+  margin-bottom: 3vh;
+  margin-top: 12vh;
+}
+
+/*# sourceMappingURL=desktop.css.map */
